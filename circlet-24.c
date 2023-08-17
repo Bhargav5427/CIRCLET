@@ -3,7 +3,7 @@
 main()
 
 {
-	int i,j,k,l;
+	int i,j,k;
 	
 	for(i=5;i>=1;i--)
 	{
@@ -11,13 +11,13 @@ main()
 		{
 			printf(" ");
 		}
-		for(j=5;j>=i;j--)
+		for(j=5;j>i;j--)
 		{
 			printf("%d",j);
 		}
-		for(l=i+1;l<=5;l++)
+		for(j=i;j<=5;j++)
        	{
-           	printf("%d",l);
+           	printf("%d",j);
        	}
 		printf("\n");
 		
